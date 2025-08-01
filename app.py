@@ -23,5 +23,5 @@ def sumar():
 
 # Ejecución del servidor
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", "5000"))  # Railway asigna el puerto
+    port = int(os.environ.get("PORT", 8080))  # Railway asigna el puerto
     app.run(host="0.0.0.0", port=port)
