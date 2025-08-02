@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Ruta principal
 @app.route("/")
 def home():
-    return "Hola desde Flask en Docker y Railway 🚀"
+    return "Hola se modifico desde la tablet desde Flask en Docker y Railway 🚀"
 
 # Ruta con parámetro
 @app.route("/saludo/<nombre>")
